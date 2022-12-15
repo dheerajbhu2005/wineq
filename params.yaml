@@ -4,7 +4,8 @@ base:
   target_col: TARGET
 
 data_source:
-  s3_source: data_given/winequality.csv
+  s3_source: 'https://drive.google.com/uc?id=1Xm-x0rJDjIOv_V0lrg4jxfF1CWX8tr_I'
+  #s3_source: data_given/winequality.csv
 
 load_data:
   raw_dataset_csv: data/raw/winequality.csv
